@@ -1,0 +1,121 @@
+@import url("grid.css");
+
+/* For small screen devices */
+@media only screen and (min-width: 300px) {
+  img.align-right {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+  img.align-left {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+  p.align-right {
+    position: absolute;
+    top: 42%;
+    left: 47%;
+  }
+  p.align-left {
+    position: absolute;
+    top: 42%;
+    left: 47%;
+  }
+}
+
+/* for large screen devices */
+@media only screen and (min-width: 768px) {
+  img.align-right {
+    width: 60%;
+    height: auto;
+    display: block;
+    float: right;
+    border-radius: 50%;
+  }
+  img.align-left {
+    width: 60%;
+    height: auto;
+    display: block;
+    float: left;
+    border-radius: 50%;
+  }
+  p.align-right {
+    position: absolute;
+    top: 43%;
+    left: 65%;
+  }
+  p.align-left {
+    position: absolute;
+    top: 43%;
+    left: 29%;
+  }
+}
+
+[class*="col-"] {
+  position: relative;
+}
+
+p.imgtext {
+  font-size: 18px;
+  color: white;
+}
+
+img:hover {
+  box-shadow: 0 0 10px #ccc;
+  width: 62%;
+  height: auto;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #75D4D9;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 0 0 5px #ccc;
+}
+
+.bioImages {
+  width: 10%;
+  float: left;
+}
+
+.bioText {
+  float: right;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
