@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	padding: 0;
+	margin: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#portfolio-intro{
+	text-align: center;
+}
+#portfolio-thumbnails{
+	margin: 50px, auto;
+	text-align: center;
+}
+
+.portfolio-section{
+	max-width: 300px; 
+	display: inline-block;
+	padding: 10px;
+}
+
+@media only screen and (min-width: 957px) {
+
+	.portfolio-section{
+		max-width: 33%; 
+	}
+}
+
+.portfolio-image{
+	border: solid black;
+	border-radius: 10px;
+}
