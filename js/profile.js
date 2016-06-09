@@ -21,7 +21,8 @@ bradley.onclick = function() {
 
     content.appendChild(bradImage);
     content.appendChild(bio);
-    modal.style.display = 'block';
+    modal.style.opacity = '1';
+    modal.style.zIndex = '1';
 }
 
 sam.onclick = function() {
@@ -36,7 +37,8 @@ sam.onclick = function() {
 
     content.appendChild(samImage);
     content.appendChild(bio);
-    modal.style.display = 'block';
+    modal.style.opacity = '1';
+    modal.style.zIndex = '1';
 }
 
 mattia.onclick = function() {
@@ -51,7 +53,8 @@ mattia.onclick = function() {
 
     content.appendChild(mattiaImage);
     content.appendChild(bio);
-    modal.style.display = 'block';
+    modal.style.opacity = '1';
+    modal.style.zIndex = '1';
 }
 
 jakub.onclick = function() {
@@ -66,19 +69,22 @@ jakub.onclick = function() {
 
     content.appendChild(jakubImage);
     content.appendChild(bio);
-    modal.style.display = 'block';
+    modal.style.opacity = '1';
+    modal.style.zIndex = '1';
 }
 
 close.onclick = function() {
     content.removeChild(content.lastChild);
     content.removeChild(content.lastChild);
-    modal.style.display = 'none';
+    modal.style.opacity = '0';
+    modal.style.zIndex = '-99';
 }
 window.onclick = function() {
     if (event.target == modal) {
         content.removeChild(content.lastChild);
         content.removeChild(content.lastChild);
-        modal.style.display = 'none';
+        modal.style.zIndex = '-99';
+        modal.style.opacity = '0';
     }
 }
 
