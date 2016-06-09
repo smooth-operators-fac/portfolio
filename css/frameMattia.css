@@ -1,0 +1,137 @@
+#wrapper {
+	text-align: center;
+
+}
+
+
+body {
+	font-family:Helvetica;
+	padding: 0;
+
+}
+
+#title {
+	width: 300px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:20px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid black;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 10px;
+}
+
+/*
+@media(min-width:730px) {
+	#title {
+		width: 33%;
+	}
+}
+@media(max-width:730px) {
+	#title {
+		width: 63%;
+	}
+}
+*/
+.title:before {
+	content: " ";
+	position: absolute;
+	z-index: -1;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border: 5px solid #ffea00;
+}
+
+
+
+ul {
+	list-style-type: none;
+	background-color: white;
+
+	padding: 0;
+	border-radius: 10px;
+}
+
+
+li {
+	display: inline-block;
+	color:black;
+
+	text-align: center;
+	width: 33%;
+
+}
+
+li:hover{
+	background-color: black;
+	color: white;
+
+}
+
+.left{
+	border-radius: 10px 0px 0px 10px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	margin-right:-5px;
+}
+.right{
+	border-radius: 0px 10px 10px 0px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	margin-left:-5px;
+}
+.middle {
+
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+
+
+}
+
+
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+#dummy{
+
+	position:relative;
+	height:300px;
+}
+
+#footer{
+	margin-top:20px;
+	text-align: center;
+	height: 10%;
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#footer a {
+	padding-left: 1%;
+	padding-right: 1%;
+	text-decoration: none;
+	color:black;
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+}
+
+@font-face {
+	font-family:"PretendoNintendo";
+	src: url("../resources/pretendo.ttf") /* TTF file for CSS3 browsers */
+}
+
+
+

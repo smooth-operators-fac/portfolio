@@ -1,10 +1,10 @@
-/* Basic grid system. Import with @import url(grid.css) */
+/* Basic grid system. Import with @import url("grid.css") */
 
 * {
   box-sizing: border-box;
 }
 
-@media only screen and (min-width: 368px) {
+@media only screen and (min-width: 300px) {
   .col-sm-1 {
     width: 8.33%;
   }
