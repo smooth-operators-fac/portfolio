@@ -2,28 +2,16 @@
 
 /* For small screen devices */
 @media only screen and (min-width: 300px) {
-  img.align-right {
+  img.align-right, img.align-left {
     width: 60%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+    cursor: pointer;
   }
-  img.align-left {
-    width: 60%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-  }
-  p.align-right {
-    position: absolute;
-    top: 42%;
-    left: 47%;
-  }
-  p.align-left {
+  p.align-right, p.align-left {
     position: absolute;
     top: 42%;
     left: 47%;
@@ -32,28 +20,27 @@
 
 /* for large screen devices */
 @media only screen and (min-width: 768px) {
-  img.align-right {
+  img.align-right, img.align-left {
     width: 60%;
     height: auto;
     display: block;
-    float: right;
     border-radius: 50%;
+    cursor: pointer;
+  }
+  img.align-right {
+    float: right;
   }
   img.align-left {
-    width: 60%;
-    height: auto;
-    display: block;
     float: left;
-    border-radius: 50%;
   }
-  p.align-right {
+  p.align-right, p.align-left {
     position: absolute;
     top: 43%;
+  }
+  p.align-right {
     left: 65%;
   }
   p.align-left {
-    position: absolute;
-    top: 43%;
     left: 29%;
   }
 }
@@ -65,45 +52,49 @@
 p.imgtext {
   font-size: 18px;
   color: white;
+  opacity: 0;
 }
 
-img:hover {
+/* image hover animations */
+img.align-left:hover, img.align-right:hover  {
   box-shadow: 0 0 10px #ccc;
-  width: 62%;
+  /*width: 62%;*/
   height: auto;
+  opacity: 0.6;
 }
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none;
+    position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
 }
 
 /* Modal Content/Box */
 .modal-content {
     background-color: #75D4D9;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 80%;
     box-shadow: 0 0 5px #ccc;
 }
 
+/* classes for the bio images + text */
 .bioImages {
   width: 10%;
   float: left;
 }
 
-.bioText {
-  float: right;
-}
+/*.bioText {
+  border-left: 5px;
+}*/
 
 /* The Close Button */
 .close {
