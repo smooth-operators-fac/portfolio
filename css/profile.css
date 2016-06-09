@@ -1,5 +1,15 @@
 @import url("grid.css");
 
+@font-face{
+    font-family: deathrattle;
+    src: url("/Users/jakubsvihla/Desktop/blog/portfolio/resources/deathrattlebb_reg.ttf")
+}
+
+h1{
+  font-family: deathrattle;
+  font-size: 80px;
+}
+
 /* For small screen devices */
 @media only screen and (min-width: 300px) {
   img.align-right, img.align-left {
