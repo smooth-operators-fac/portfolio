@@ -38,10 +38,6 @@ img {
 	}
 }
 
-.portfolio-image{
-	transition: all 0.3s ease-out;
-	opacity: 1;
-}
 
 /*.portfolio-label{
 font-size: 20px;
