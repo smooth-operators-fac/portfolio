@@ -5,6 +5,19 @@ body {
 
 }
 
+@font-face{
+    font-family: deathrattle;
+    src: url("../resources/deathrattlebb_reg.ttf")
+}
+
+h1{
+  font-family: deathrattle;
+  font-size: 80px;
+	text-align: center;
+	color: white;
+  
+}
+
 /* For small screen devices */
 img.align-right, img.align-left {
   border-radius: 50%;
