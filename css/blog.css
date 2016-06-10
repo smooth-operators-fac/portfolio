@@ -1,3 +1,16 @@
+@font-face{
+    font-family: deathrattle;
+    src: url("../resources/deathrattlebb_reg.ttf")
+}
+
+h1{
+  font-family: deathrattle;
+  font-size: 80px;
+	text-align: center;
+	color: white;
+
+}
+
 @-webkit-keyframes rotating /* Safari and Chrome */ {
 	from {
 		transform: rotate(0deg);
@@ -29,8 +42,3 @@
 .trasla {
 	animation: trasla 5s infinite;
 }
-
-
-
-
-
