@@ -1,0 +1,36 @@
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes rotating {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(900deg);
+	}
+}
+@keyframes trasla {
+	from {
+		transform: translate(-200px);
+	}
+	to {
+		transform: translate(1500px);
+	}
+}
+.rotating {
+	-webkit-animation: rotating 2s linear infinite;
+	animation: rotating 4s linear infinite;
+}
+.trasla {
+	animation: trasla 5s infinite;
+}
+
+
+
+
+
