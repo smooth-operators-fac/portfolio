@@ -2,130 +2,130 @@
 
 /* For small screen devices */
 img.align-right, img.align-left {
-  border-radius: 50%;
-  cursor: pointer;
-  display: block;
-  height: auto;
-  transition: all 0.2s;
+	border-radius: 50%;
+	cursor: pointer;
+	display: block;
+	height: auto;
+	transition: all 0.2s;
 }
 
 @media only screen and (min-width: 300px) {
-  img.align-right, img.align-left {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  p.align-right, p.align-left {
-    position: absolute;
-    top: 42%;
-    left: 47%;
-  }
+	img.align-right, img.align-left {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	p.align-right, p.align-left {
+		position: absolute;
+		top: 42%;
+		left: 47%;
+	}
 }
 
 /* for large screen devices */
 @media only screen and (min-width: 768px) {
-  img.align-right, img.align-left {
-    width: 60%;
-  }
-  img.align-right {
-    float: right;
-  }
-  img.align-left {
-    float: left;
-  }
-  p.align-right, p.align-left {
-    position: absolute;
-    top: 43%;
-  }
-  p.align-right {
-    left: 65%;
-  }
-  p.align-left {
-    left: 29%;
-  }
+	img.align-right, img.align-left {
+		width: 60%;
+	}
+	img.align-right {
+		float: right;
+	}
+	img.align-left {
+		float: left;
+	}
+	p.align-right, p.align-left {
+		position: absolute;
+		top: 43%;
+	}
+	p.align-right {
+		left: 65%;
+	}
+	p.align-left {
+		left: 29%;
+	}
 }
 
 [class*="col-"] {
-  position: relative;
+	position: relative;
 }
 
 p.imgtext {
-  font-size: 18px;
-  color: white;
-  opacity: 0;
-  transition: all 0.2s;
-  pointer-events: none;
+	font-size: 18px;
+	color: white;
+	opacity: 0;
+	transition: all 0.2s;
+	pointer-events: none;
 }
 
 
 /* image hover animations */
 img.align-left:hover, img.align-right:hover  {
-  box-shadow: 0 0 10px #ccc;
-  opacity: 0.6;
-  transform: scale(1.1);
-  overflow: hidden;
+	box-shadow: 0 0 10px #ccc;
+	opacity: 0.6;
+	transform: scale(1.1);
+	overflow: hidden;
 }
 
 img.align-left:hover + p, img.align-right:hover + p  {
-  opacity: 1;
+	opacity: 1;
 }
 
 /* The Modal (background) */
 .modal {
-    position: fixed;
-    z-index: -99;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.4);
-    transition: opacity 0.3s;
-    opacity: 0;
+	position: fixed;
+	z-index: -99;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.4);
+	transition: opacity 0.3s;
+	opacity: 0;
 }
 
 /* Modal Content/Box */
 .modal-content, .modal-footer {
-    background-color: #B4D8E7;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 0 5px #ccc;
-    position: relative;
-    min-height: 130px;
+	background-color: #B4D8E7;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	box-shadow: 0 0 5px #ccc;
+	position: relative;
+	min-height: 130px;
 }
 
 /* classes for the bio images + text */
 .bioImages {
-  width: 10%;
-  min-width: 60px;
-  float: left;
-  margin-right: 18px;
+	width: 10%;
+	min-width: 60px;
+	float: left;
+	margin-right: 18px;
 }
 
 /*.modal-footer{
-  background-color: #FFEC94;
-  height: 100px;
+background-color: #FFEC94;
+height: 100px;
 } */
 
 .bioText {
-  margin: 0;
+	margin: 0;
 }
 
 /* The Close Button */
 .close {
-    color: #aaa;
-    position:absolute;
-    right: 7px;
-    top: -2px;
-    font-size: 28px;
-    font-weight: bold;
+	color: #aaa;
+	position:absolute;
+	right: 7px;
+	top: -2px;
+	font-size: 28px;
+	font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
 }
