@@ -1,23 +1,5 @@
 @import url("grid.css");
 
-body {
-  background-color: #33adff;
-
-}
-
-@font-face{
-    font-family: deathrattle;
-    src: url("../resources/deathrattlebb_reg.ttf")
-}
-
-h1{
-  font-family: deathrattle;
-  font-size: 80px;
-	text-align: center;
-	color: white;
-  
-}
-
 /* For small screen devices */
 img.align-right, img.align-left {
   border-radius: 50%;
@@ -74,21 +56,7 @@ p.imgtext {
   transition: all 0.2s;
   pointer-events: none;
 }
-.padding{
-  height: 20px;
-}
-#jumbotron {
-    background-color: orange;
-    margin-top: -28px;
-    border-top: 2px solid black;
-    margin-left: -8px;
-    margin-right: -8px;
-    padding: 20px;
-    color: white;
-    text-align: center;
-    font-size: 16px;
 
-}
 
 /* image hover animations */
 img.align-left:hover, img.align-right:hover  {
