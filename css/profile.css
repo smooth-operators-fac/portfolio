@@ -7,7 +7,7 @@ body {
 
 @font-face{
     font-family: deathrattle;
-    src: url("resources/deathrattlebb_reg.ttf")
+    src: url("../resources/deathrattlebb_reg.ttf")
 }
 
 h1{
