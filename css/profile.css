@@ -7,13 +7,14 @@ body {
 
 @font-face{
     font-family: deathrattle;
-    src: url("/Users/jakubsvihla/Desktop/blog/portfolio/resources/deathrattlebb_reg.ttf")
+    src: url("resources/deathrattlebb_reg.ttf")
 }
 
 h1{
   font-family: deathrattle;
   font-size: 80px;
 	text-align: center;
+	color: white;
   
 }
 
