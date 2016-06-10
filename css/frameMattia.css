@@ -1,13 +1,46 @@
 #wrapper {
 	text-align: center;
-
 }
-
+* {
+	box-sizing: border-box;
+}
 
 body {
 	font-family:Helvetica;
 	padding: 0;
 	min-width: 300px;
+	background-color: #33adff;
+	margin: 8px;
+
+}
+
+@font-face{
+    font-family: deathrattle;
+    src: url("../resources/deathrattlebb_reg.ttf")
+}
+
+h1{
+  font-family: deathrattle;
+  font-size: 80px;
+	text-align: center;
+	color: white;
+  
+}
+
+.padding{
+  height: 20px;
+}
+
+#jumbotron {
+    background-color: orange;
+    margin-top: -28px;
+    border-top: 2px solid black;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
 
 }
 
